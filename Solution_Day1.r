@@ -6,7 +6,7 @@ str(numbers)
 
 for (i in numbers) {
   for (j in numbers) {
-    if ( i+j == 2020) {
+    if (i+j == 2020) {
       print(i)
       print(j)
       print(i*j)
