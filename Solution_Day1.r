@@ -1,6 +1,6 @@
-mydata <- read.delim(file="input.txt", header = FALSE, sep = "\n")
+mydata <- read.delim(file="input_day1.txt", header = FALSE, sep = "\n")
 numbers <- as.vector(t(mydata))
-str(numbers)
+#str(numbers)
 
 # ----- Part1 ----- #
 
